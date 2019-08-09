@@ -25,7 +25,6 @@ router.post('/api/friends', (req, res) => {
     // THIS IS BAD PRACTICE, though unfortunately I see no other way of doing it. Loop inside loop === BAD
     // Loop through the array of people
     array.map((val, index) => {
-      console.log(index)
       let totalDifference = 0
       // Loop through the scores inside each person
       val.scores.map((score, index) => {
@@ -51,7 +50,7 @@ router.post('/api/friends', (req, res) => {
     })
 
     // Send the match info
-    res.send(match)
+    res.send(array[match.index])
   })
 })
 

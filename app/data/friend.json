@@ -1,6 +1,7 @@
 [
-  { "name": "Dante Fragapane", "photo": "None", "scores": [ "1", "1", "1", "1", "1", "1", "0", "1", "0", "2" ] },
   { "name": "Test User", "photo": "None", "scores": [ "2", "1", "5", "1", "1", "4", "3", "2", "0", "5" ] },
   { "name": "Random Name Here", "photo": "None", "scores": [ "5", "2", "3", "2", "5", "2", "3", "1", "5", "0" ] },
-  { "name": "Mr. Random", "photo": "Robot", "scores": [ "0", "1", "2", "4", "2", "3", "5", "2", "0", "0" ] }
+  { "name": "Mr. Random", "photo": "Robot", "scores": [ "0", "1", "2", "4", "2", "3", "5", "2", "0", "0" ] },
+  { "name": "Dante", "photo": "none", "scores": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ] },
+  { "name": "Dante Fragapan", "photo": "none", "scores": [ "2", "2", "3", "1", "0", "0", "0", "3", "1", "2" ] }
 ]
