@@ -1,5 +1,5 @@
 {
-  "name": "FriendFinder",
+  "name": "friendfinder",
   "version": "1.0.0",
   "description": "A basic questionnaire app used to demonstrate my knowledge of using JSON files as a rudimentary database, and Node and Express used as a basic server.",
   "main": "server.js",
@@ -12,10 +12,13 @@
     "url": "git+https://github.com/DanteFragapane/FriendFinder.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dante Fragapane",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DanteFragapane/FriendFinder/issues"
   },
-  "homepage": "https://github.com/DanteFragapane/FriendFinder#readme"
+  "homepage": "https://github.com/DanteFragapane/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
