@@ -125,6 +125,10 @@
       console.log(data)
       $.ajax({url: '/api/friends', type: 'POST', data: data}).then((data) => {
         console.log(data)
+
+        const h1 = $('<h1>', {text: `Your new friend is: ${data.name}`})
+        h1.append($('<img>', {src: data.photo, alt:'Your new best friend!'}))
+        $('body').html(h1)
       })
     })
   </script>
